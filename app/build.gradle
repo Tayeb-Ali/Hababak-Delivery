@@ -5,8 +5,8 @@ android {
     defaultConfig {
         applicationId "com.hababk.delivery"
         resValue 'string', "app_name", "Hababk Delivery"
-        resValue 'string', "google_maps_key", ""
-        resValue 'string', "directions_api_key", ""
+        resValue 'string', "google_maps_key", "AIzaSyBRiRmkvWdoVBqyPdyfm_o5Crw6WOffTFE"
+        resValue 'string', "directions_api_key", "AIzaSyB2mjZ3VCVfKJ6tQkFg9Kz-aIuj_F124bM"
         resValue 'color', "colorPrimary", "#6ac932"
         resValue 'color', "colorPrimaryDark", "#55A128"
         resValue 'color', "colorAccent", "#f95424"

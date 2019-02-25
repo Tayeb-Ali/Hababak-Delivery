@@ -69,7 +69,7 @@
                 android:layout_marginRight="@dimen/dp8"
                 android:drawableLeft="@drawable/ic_access_time_primary_24dp"
                 android:drawablePadding="4dp"
-                android:text="@string/_20_min"
+                android:text="20_min"
                 android:textColor="@color/colorDarkText4"
                 android:textSize="16sp" />
         </FrameLayout>
@@ -94,7 +94,7 @@
                 android:layout_marginRight="@dimen/dp8"
                 android:drawableLeft="@drawable/ic_navigation_primary_24dp"
                 android:drawablePadding="4dp"
-                android:text="@string/_22_00_km"
+                android:text="2200_km"
                 android:textColor="@color/colorDarkText4"
                 android:textSize="16sp" />
         </FrameLayout>

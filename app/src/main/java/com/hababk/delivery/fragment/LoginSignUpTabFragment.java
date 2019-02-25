@@ -47,8 +47,8 @@ public class LoginSignUpTabFragment extends Fragment {
 
     public void setUpViewPager() {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getChildFragmentManager());
-        adapter.addFragment(new SignInFragment(), "Sign in");
-        adapter.addFragment(new RegisterFragment(), "Register");
+        adapter.addFragment(new SignInFragment(), getString(R.string.sign_in));
+        adapter.addFragment(new RegisterFragment(), getString(R.string.register));
         mAuhViewPager.setAdapter(adapter);
         mAuhViewPager.post(new Runnable() {
             @Override

@@ -64,14 +64,14 @@
     <string name="phone">رقم الهاتف</string>
     <string name="price">السعر</string>
     <string name="ago">-- مضا</string>
-    <string name="order">طلب رقم #--</string>
+    <string name="order">طلب رقم #—</string>
     <string name="profile">الملف الشخصي</string>
     <string name="bank_details">تفاصيل الحساب البنكي</string>
     <string name="support">الدعم</string>
     <string name="don_t_worry_just_fill_in_your_registered_mail_id_and_we_ll_help_you_reset_your_password">Don\'t worry ! Just fill in your registered mail id and we\'ll help you reset your password</string>
     <string name="enter_your_mail_address">Enter your mail address</string>
-    <string name="send_mail">Send mail</string>
-    <string name="back_to_login">Back to login</string>
+    <string name="send_mail">ارسال بريد</string>
+    <string name="back_to_login">العودة لتسجيل الدخول</string>
     <string name="available_deliveries">التوصيلات المتاحة</string>
     <string name="not_registered_yet">لم تسجل بعد؟</string>
     <string name="request_alert">تنبيه الطلبات</string>
@@ -83,7 +83,7 @@
 
     <string name="total_earnings_as_of">إجمالي الأرباح اعتبارًا من:</string>
     <string name="global_chef">Global Chef</string>
-    <string name="credit_card">Credit card</string>
+    <string name="credit_card">المحفظة الالكترونية</string>
     <string name="view_order">مشاهدة الطلب</string>
     <string name="mg_point">نقاط الـMG</string>
     <string name="no_items_found_at_the_moment">لا توجد عناصر في الوقت الحالي</string>
@@ -101,7 +101,7 @@
     <string name="available_deleveries">التسليمات المتاحة</string>
     <string name="today">اليوم</string>
     <string name="weekly">أسبوعي</string>
-    <string name="online">متصل</string>
+    <string name="online">متصل  </string>
     <string name="offline">غير متصل</string>
     <string name="location_permision">مطلوب إذن الموقع</string>
     <string name="permission_message">يحتاج هذا التطبيق إلى إذن الموقع ، يرجى الموافقة على استخدام وظيفة الموقع</string>
@@ -110,8 +110,10 @@
     <string name="ok">نعم</string>
     <string name="item_info">معلومات العنصر</string>
     <string name="notification_setting">إعداد التنبيهات</string>
-
-
+    <string name="countries_code">null</string>
+    <string name="notification">التنبيهات</string>
+    <string name="total">المجموع</string>
+    <string name="history">التاريخ</string>
 
 
 </resources>

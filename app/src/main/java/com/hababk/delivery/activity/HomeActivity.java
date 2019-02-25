@@ -45,10 +45,14 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener {
-    private final String FRAG_TAG_HOME = "Home";
-    private final String FRAG_TAG_EARNING = "Earnings";
-    private final String FRAG_TAG_NOTIFICATION = "Notification";
-    private final String FRAG_TAG_ACCOUNT = "Account";
+//    private final String FRAG_TAG_HOME = getString(R.string.home);
+    private final String FRAG_TAG_HOME = "الرئيسية";
+//    private final String FRAG_TAG_EARNING = getString(R.string.earnings);
+    private final String FRAG_TAG_EARNING = "أرباح";
+    private final String FRAG_TAG_NOTIFICATION = "التنبيهات";
+//    private final String FRAG_TAG_NOTIFICATION = getString(R.string.notification);
+//    private final String FRAG_TAG_ACCOUNT = getString(R.string.account);
+    private final String FRAG_TAG_ACCOUNT = "الحساب";
     public static final int MY_PERMISSIONS_REQUEST_LOCATION = 99;
 
     private int[][] bottomViewRes = {{R.drawable.ic_home_24dp, R.drawable.ic_home_selected_24dp},

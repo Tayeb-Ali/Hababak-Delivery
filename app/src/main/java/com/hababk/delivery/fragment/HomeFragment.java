@@ -238,7 +238,9 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback {
                 durationText.setText("-- min");
                 distanceText.setText("-- km");
                 chefName.setText(getString(R.string.loading));
-                orderNumber.setText("Order #--");
+                String Order_number = getString(R.string.order);
+                orderNumber.setText(Order_number);
+//                orderNumber.setText("Order #--");
                 orderTime.setText("-- ago");
                 statusDelivery.setText(getString(R.string.loading));
                 addressStore.setText(getString(R.string.loading));

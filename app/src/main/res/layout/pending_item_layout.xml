@@ -52,7 +52,7 @@
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
                     android:maxLines="1"
-                    android:text="@string/red_chicken_tikka"
+                    android:text="red_chicken_tikka"
                     android:textColor="@color/colorDarkText4"
                     android:textStyle="bold" />
 
@@ -81,7 +81,7 @@
                     android:id="@+id/pending_item_status_val_tv"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/_20_bd"
+                    android:text="20_bd"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>

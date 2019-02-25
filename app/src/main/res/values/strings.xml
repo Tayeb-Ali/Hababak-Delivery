@@ -35,7 +35,6 @@
     <string name="account">Account</string>
     <string name="item_category">Item Category</string>
     <string name="non_veg_food">Non-Veg food</string>
-    <string name="laizzie_falod_chicken">Laizzie Falod Chicken</string>
     <string name="order_items">Order Items</string>
     <string name="order_details">Order Details</string>
     <string name="cancel_order">Cancel Order</string>
@@ -81,7 +80,6 @@
     <string name="payment">Payment</string>
     <string name="credit_card">Credit card</string>
     <string name="view_order">View Order</string>
-    <string name="red_chicken_tikka">Red Chicken Tikka</string>
     <string name="status">Status</string>
     <string name="mg_point">MG point</string>
     <string name="no_items_found_at_the_moment">No items found at the moment</string>
@@ -99,7 +97,7 @@
     <string name="available_deleveries">Available deliveries</string>
     <string name="today">Today</string>
     <string name="weekly">Weekly</string>
-    <string name="online">Online</string>
+    <string name="online">Online  </string>
     <string name="offline">Offline</string>
     <string name="location_permision">Location Permission Needed</string>
     <string name="permission_message">This app needs the Location permission, please accept to use location functionality</string>
@@ -108,5 +106,9 @@
     <string name="ok">OK</string>
     <string name="item_info">Item info</string>
     <string name="notification_setting">Notification setting</string>
+    <string name="countries_code">null</string>
+    <string name="notification">Notification</string>
+    <string name="total">Total</string>
+    <string name="history">History</string>
 
 </resources>

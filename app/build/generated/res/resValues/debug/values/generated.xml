@@ -10,7 +10,7 @@
     <color name="colorPrimary">#6ac932</color>
     <color name="colorPrimaryDark">#55A128</color>
 
-    <string name="directions_api_key" translatable="false"></string>
-    <string name="google_maps_key" translatable="false"></string>
+    <string name="directions_api_key" translatable="false">AIzaSyB2mjZ3VCVfKJ6tQkFg9Kz-aIuj_F124bM</string>
+    <string name="google_maps_key" translatable="false">AIzaSyBRiRmkvWdoVBqyPdyfm_o5Crw6WOffTFE</string>
 
 </resources>
