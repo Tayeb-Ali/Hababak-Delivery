@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorBackground"
     android:orientation="vertical"
-    tools:context="import com.verbosetech.cookfu_delivery.activity.EarningsActivity">
+    tools:context="com.hababk.delivery.activity.EarningsActivity">
 
     <include layout="@layout/toolbar" />
 

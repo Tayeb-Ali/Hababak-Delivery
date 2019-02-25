@@ -17,7 +17,7 @@
             android:layout_toLeftOf="@+id/review_person_address_tv"
             android:ellipsize="end"
             android:maxLines="1"
-            android:text="@string/khana_khazana_chef"
+            android:text="khana_khazana_chef"
             android:textColor="@color/colorPrimary"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -69,7 +69,7 @@
             android:layout_marginTop="@dimen/dp8"
             android:ellipsize="end"
             android:maxLines="5"
-            android:text="@string/a_test_review"
+            android:text="a_test_review"
             android:textColor="@color/colorDarkText3"
             android:textSize="16sp" />
 

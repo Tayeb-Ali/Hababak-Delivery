@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context="import com.verbosetech.cookfu_delivery.activity.AddItemActivity">
+    tools:context="com.hababk.delivery.activity.AddItemActivity">
 
     <include layout="@layout/toolbar" />
 
@@ -95,7 +95,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/_25_bd"
+                        android:text="25bd"
                         android:textColor="@color/colorDarkText4"
                         android:textSize="16sp" />
                 </LinearLayout>

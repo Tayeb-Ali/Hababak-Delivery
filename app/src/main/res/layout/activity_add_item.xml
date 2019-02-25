@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context="import com.verbosetech.cookfu_delivery.activity.AddItemActivity">
+    tools:context="com.hababk.delivery.activity.AddItemActivity">
 
     <include layout="@layout/toolbar" />
 

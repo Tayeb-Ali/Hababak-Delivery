@@ -24,7 +24,7 @@
             android:id="@+id/order_item_sub_total_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_20_bd"
+            android:text="20_bd"
             android:textColor="@color/colorDarkText4"
             android:textStyle="bold" />
     </LinearLayout>
@@ -33,7 +33,7 @@
         android:id="@+id/order_item_price_quantity_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_1_x_20_bd"
+        android:text="1x20_bd"
         android:textColor="@color/colorDarkText2"
         android:textSize="12sp" />
 
