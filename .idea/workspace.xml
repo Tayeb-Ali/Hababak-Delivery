@@ -2507,22 +2507,22 @@
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Build" order="8" weight="0.32874355" />
       <window_info id="Structure" order="1" sideWeight="0.5043029" side_tool="true" weight="0.24242425" />
-      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
+      <window_info anchor="right" id="Device File Explorer" order="9" sideWeight="0.50256413" side_tool="true" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32874355" />
       <window_info anchor="right" id="Codota" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Preview" order="4" visible="true" weight="0.32954547" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Preview" order="8" sideWeight="0.4974359" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32702237" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32874355" />
       <window_info id="Captures" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49569708" visible="true" weight="0.24242425" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32874355" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.32954547" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32954547" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32843137" />
