@@ -1,0 +1,4 @@
+#Wed Feb 20 13:37:16 EET 2019
+base.0=D\:\\Haababk\\delivery\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=D\:\\Haababk\\delivery\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex

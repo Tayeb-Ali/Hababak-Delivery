@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/CardViewStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp16">
+
+        <TextView
+            android:id="@+id/review_person_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/review_person_address_tv"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/khana_khazana_chef"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/review_person_address_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/mg_point" />
+
+        <LinearLayout
+            android:id="@+id/reviewRatingContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/review_person_name_tv"
+            android:layout_marginTop="@dimen/dp8"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/review_rating_val_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dp8"
+                android:background="@drawable/round_rating"
+                android:paddingBottom="2dp"
+                android:paddingLeft="@dimen/dp8"
+                android:paddingRight="@dimen/dp8"
+                android:paddingTop="2dp"
+                android:text="4.8"
+                android:textColor="@android:color/white" />
+
+            <RatingBar
+                android:id="@+id/review_ratingbar"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:numStars="5"
+                android:rating="2.5"
+                android:stepSize="0.1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/review_text_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reviewRatingContainer"
+            android:layout_marginTop="@dimen/dp8"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:text="@string/a_test_review"
+            android:textColor="@color/colorDarkText3"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/review_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/review_text_tv" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

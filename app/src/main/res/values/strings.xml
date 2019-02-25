@@ -1,0 +1,118 @@
+<resources>
+    <string-array name="item_type">
+        <item>Choose Item Category</item>
+        <item>Veg Food</item>
+        <item>Non-Veg Food</item>
+    </string-array>
+
+    <string-array name="bank_names">
+        <item>Select Bank Name</item>
+        <item>AXIS Bank</item>
+        <item>HDFC Bank</item>
+        <item>HSBC Bank</item>
+        <item>ICICI Bank</item>
+        <item>INDUS Bank</item>
+        <item>SBI Bank</item>
+        <item>PNB Bank</item>
+        <item>UNION Bank Bank</item>
+    </string-array>
+
+    <string name="loading">…</string>
+
+    <string name="upload_item_image">Upload Item Image</string>
+    <string name="item_name">Item Name</string>
+    <string name="short_description">Short Description</string>
+    <string name="price_in_bd">Price in BD</string>
+    <string name="avilable">Available?</string>
+    <string name="specification">Specification</string>
+    <string name="add_item">Add Item</string>
+    <string name="your_bank_account_detail">Your Bank Account Detail</string>
+    <string name="provide_your_bank_detailwhere_admin_will_deposite_your_earnings_though_food_delivery_app">Provide your bank detailwhere admin will deposite your earnings though food delivery app</string>
+    <string name="account_holder_name">Account Holder Name</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="branch_code">Branch Code</string>
+    <string name="account_number">Account Number</string>
+    <string name="update_info">Update Info</string>
+    <string name="min">-- min</string>
+    <string name="km">-- km</string>
+    <string name="refresh_order">Refresh order</string>
+    <string name="home">Home</string>
+    <string name="earnings">Earnings</string>
+    <string name="account">Account</string>
+    <string name="item_category">Item Category</string>
+    <string name="non_veg_food">Non-Veg food</string>
+    <string name="laizzie_falod_chicken">Laizzie Falod Chicken</string>
+    <string name="order_items">Order Items</string>
+    <string name="order_details">Order Details</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="accept_order">Accept Order</string>
+    <string name="payment_by">Payment by</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="full_name">Full name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="price">Price</string>
+    <string name="ago">-- ago</string>
+    <string name="order">Order #--</string>
+    <string name="profile">Profile</string>
+    <string name="bank_details">Bank details</string>
+    <string name="support">Support</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="don_t_worry_just_fill_in_your_registered_mail_id_and_we_ll_help_you_reset_your_password">Don\'t worry ! Just fill in your registered mail id and we\'ll help you reset your password</string>
+    <string name="enter_your_mail_address">Enter your mail address</string>
+    <string name="send_mail">Send mail</string>
+    <string name="back_to_login">Back to login</string>
+    <string name="available_deliveries">Available deliveries</string>
+    <string name="password">Password</string>
+    <string name="not_registered_yet">Not registered yet?</string>
+    <string name="sign_up_now">Sign up Now</string>
+    <string name="request_alert">Request Alert</string>
+    <string name="sounds_when_receive_a_new_notification">Sounds when receive a new notification</string>
+    <string name="pickup_alert">Pickup Alert</string>
+    <string name="sounds_when_you_are_near_pickup_location">Sounds when you are near pickup location</string>
+    <string name="push_notification">Push Notification</string>
+    <string name="sounds_when_push_notifications">Sounds when push notifications</string>
+    <string name="name">Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm">Confirm</string>
+    <string name="register_now">Register Now</string>
+    <string name="already_registered">Already registered?</string>
+    <string name="sign_in_now">Sign in Now</string>
+    <string name="total_earnings_as_of">Total earnings as of:</string>
+    <string name="global_chef">Global Chef</string>
+    <string name="payment">Payment</string>
+    <string name="credit_card">Credit card</string>
+    <string name="view_order">View Order</string>
+    <string name="red_chicken_tikka">Red Chicken Tikka</string>
+    <string name="status">Status</string>
+    <string name="mg_point">MG point</string>
+    <string name="no_items_found_at_the_moment">No items found at the moment</string>
+    <string name="swipe_down_to_retry">( Swipe down to retry. )</string>
+    <string name="active_delivery">Active Delivery</string>
+    <string name="marker_in">Marker in Perth</string>
+    <string name="marker_in2">Marker in Sydney</string>
+    <string name="select_image">Select Item Image</string>
+    <string name="provide_name_bank_details">Provide name with bank details</string>
+    <string name="provide_bank_name">Provide your bank name</string>
+    <string name="provide_branch_code">Provide branch code</string>
+    <string name="provide_valid_account_number">Provide valid 16 digit account number</string>
+    <string name="active">Active</string>
+    <string name="pending">Pending</string>
+    <string name="available_deleveries">Available deliveries</string>
+    <string name="today">Today</string>
+    <string name="weekly">Weekly</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="location_permision">Location Permission Needed</string>
+    <string name="permission_message">This app needs the Location permission, please accept to use location functionality</string>
+    <string name="location_services">Location Services Needed</string>
+    <string name="gps_enable">Enable GPS for higher accuracy</string>
+    <string name="ok">OK</string>
+    <string name="item_info">Item info</string>
+    <string name="notification_setting">Notification setting</string>
+
+</resources>
