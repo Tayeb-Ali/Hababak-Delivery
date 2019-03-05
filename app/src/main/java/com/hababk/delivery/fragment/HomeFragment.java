@@ -157,14 +157,14 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback {
                     HomeFragment.this.order = response.body();
                     setDetails();
                 } else {
-                    if (chefName != null) chefName.setText("No order to deliver");
+                    if (chefName != null) chefName.setText(getString(R.string.no_order));
                 }
             }
 
             @Override
             public void onFailure(Call<Order> call, Throwable t) {
                 progressBar.setVisibility(View.INVISIBLE);
-                if (chefName != null) chefName.setText("No order to deliver");
+                if (chefName != null) chefName.setText(getString(R.string.no_order));
                 Log.e("CHECK", t.getMessage());
             }
         });

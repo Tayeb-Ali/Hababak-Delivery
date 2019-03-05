@@ -53,7 +53,7 @@ public class EarningTotalFragment extends Fragment {
     public void setData(EarningResponse body) {
         if (date != null && total != null) {
             progressBar.setVisibility(View.INVISIBLE);
-            date.setText(body != null && body.getLast_earning_date() != null ? body.getLast_earning_date() + PRICEUNIT : "No earning to show for now");
+            date.setText(body != null && body.getLast_earning_date() != null ? body.getLast_earning_date() + PRICEUNIT : getString(R.string.no_earning));
             total.setText(body != null ? decimalFormat.format(body.getTotal_earnings()) + PRICEUNIT : "-- --");
         }
     }

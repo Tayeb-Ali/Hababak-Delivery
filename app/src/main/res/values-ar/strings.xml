@@ -110,10 +110,15 @@
     <string name="ok">نعم</string>
     <string name="item_info">معلومات العنصر</string>
     <string name="notification_setting">إعداد التنبيهات</string>
-    <string name="countries_code">null</string>
+    <string name="countries_code">مفتاح الدول</string>
     <string name="notification">التنبيهات</string>
     <string name="total">المجموع</string>
     <string name="history">التاريخ</string>
+    <string name="app_name">حبابك-توصيل</string>
+    <string name="no_earning">لا توجد ارباح حتي الان</string>
+    <string name="send_us">ارسال</string>
+    <string name="your_message">نص السالة</string>
+    <string name="no_order">لا توجد طلبات توصيل</string>
 
 
 </resources>

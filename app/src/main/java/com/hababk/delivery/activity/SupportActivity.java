@@ -45,7 +45,7 @@ public class SupportActivity extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
             actionBar.setHomeButtonEnabled(true);
             actionBar.setHomeAsUpIndicator(R.drawable.ic_arrow_left_white);
-            actionBar.setTitle("Support");
+            actionBar.setTitle("الدعم الفني");
         }
 
         supportEmail = findViewById(R.id.supportEmail);
@@ -118,14 +118,14 @@ public class SupportActivity extends AppCompatActivity {
                 if (response.isSuccessful()) {
                     Toast.makeText(SupportActivity.this, "Request submitted", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(SupportActivity.this, "Something went wrong!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SupportActivity.this, "Something went wrong!#101", Toast.LENGTH_SHORT).show();
                 }
             }
 
             @Override
             public void onFailure(Call<SupportResponse> call, Throwable t) {
                 setSubmitProgress(false);
-                Toast.makeText(SupportActivity.this, "Something went wrong!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(SupportActivity.this, "Something went wrong!#102", Toast.LENGTH_SHORT).show();
             }
         });
     }

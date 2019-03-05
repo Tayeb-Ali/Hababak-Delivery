@@ -130,7 +130,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="@dimen/dp8"
-                            android:hint="Name"
+                            android:hint="@string/name"
                             android:inputType="textPersonName"
                             android:maxLines="1"
                             android:singleLine="true" />
@@ -140,7 +140,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="@dimen/dp8"
-                            android:hint="Email"
+                            android:hint="@string/email"
                             android:inputType="textEmailAddress"
                             android:maxLines="1"
                             android:singleLine="true" />
@@ -152,7 +152,7 @@
                             android:layout_marginBottom="@dimen/dp8"
                             android:layout_weight="1"
                             android:gravity="start"
-                            android:hint="Your message"
+                            android:hint="@string/your_message"
                             android:inputType="textMultiLine"
                             android:maxLines="3"
                             android:minHeight="96dp" />
@@ -172,7 +172,7 @@
                             android:background="@drawable/round_accent"
                             android:gravity="center"
                             android:padding="12dp"
-                            android:text="Send us"
+                            android:text="@string/send_us"
                             android:textColor="@android:color/white"
                             android:textSize="16sp" />
                     </LinearLayout>

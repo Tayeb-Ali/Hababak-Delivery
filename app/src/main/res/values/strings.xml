@@ -12,6 +12,7 @@
     </string-array>
 
     <string name="loading">…</string>
+    <string name="app_name">Hababak Delivery</string>
 
     <string name="upload_item_image">Upload Item Image</string>
     <string name="item_name">Item Name</string>
@@ -110,5 +111,9 @@
     <string name="notification">Notification</string>
     <string name="total">Total</string>
     <string name="history">History</string>
+    <string name="no_earning">No earning to show for now</string>
+    <string name="send_us">Send us</string>
+    <string name="your_message">Your message</string>
+    <string name="no_order">No order to deliver</string>
 
 </resources>

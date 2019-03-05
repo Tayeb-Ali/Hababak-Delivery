@@ -1,4 +1,0 @@
-#Mon Feb 25 13:00:23 EAT 2019
-base.0=/home/ppain/AndroidProjects/cookfu/delivery/app/build/intermediates/transforms/dexMerger/debug/1
-renamed.0=classes.dex
-file.0=/home/ppain/AndroidProjects/cookfu/delivery/app/build/intermediates/transforms/dexMerger/debug/1/classes.dex

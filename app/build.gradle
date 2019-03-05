@@ -1,10 +1,18 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'key0'
+            keyPassword 'bencolmbc3'
+            storeFile file('/home/ppain/keys/mykey.jks')
+            storePassword 'bencolmbc3'
+        }
+    }
     compileSdkVersion 27
     defaultConfig {
         applicationId "com.hababk.delivery"
-        resValue 'string', "app_name", "Hababk Delivery"
+//        resValue 'string', "app_name", "Hababk Delivery"
         resValue 'string', "google_maps_key", "AIzaSyBRiRmkvWdoVBqyPdyfm_o5Crw6WOffTFE"
         resValue 'string', "directions_api_key", "AIzaSyB2mjZ3VCVfKJ6tQkFg9Kz-aIuj_F124bM"
         resValue 'color', "colorPrimary", "#6ac932"
@@ -15,6 +23,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.config
     }
     buildTypes {
         release {
@@ -22,10 +31,26 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    lintOptions {
+        // Returns whether lint should be quiet (for example, not write informational messages such as paths to report files written)
+        quiet true
+
+        // Whether lint should set the exit code of the process if errors are found
+        abortOnError false
+
+        // Returns whether lint will only check for errors (ignoring warnings)
+        ignoreWarnings true
+
+        // Returns whether lint should check for fatal errors during release builds. Default is true.
+        // If issues with severity "fatal" are found, the release build is aborted.
+        checkReleaseBuilds false
+    }
+    productFlavors {
+    }
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
@@ -33,7 +58,6 @@ dependencies {
     implementation 'com.android.support:cardview-v7:27.1.1'
     implementation 'com.android.support:support-v4:27.1.1'
     implementation 'com.android.support:design:27.1.1'
-
     implementation 'com.google.android.gms:play-services-places:16.0.0'
     implementation 'com.google.android.gms:play-services-maps:16.0.0'
     implementation 'com.google.android.gms:play-services-location:16.0.0'
@@ -42,13 +66,10 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage:16.0.5'
     implementation 'com.google.firebase:firebase-messaging:17.3.4'
     implementation 'com.google.firebase:firebase-database:16.0.6'
-
     implementation 'com.iceteck.silicompressorr:silicompressor:2.1'
     implementation 'com.kbeanie:multipicker:1.5@aar'
-
     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
-
     implementation 'com.github.bumptech.glide:glide:4.7.1'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
     implementation 'com.jakewharton:butterknife:8.8.1'

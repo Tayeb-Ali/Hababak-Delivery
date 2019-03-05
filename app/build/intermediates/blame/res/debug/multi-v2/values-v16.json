@@ -33,40 +33,6 @@
                     }
                 }
             ]
-        },
-        {
-            "outputFile": "/home/ppain/AndroidProjects/cookfu/delivery/D:\\Haababk\\delivery\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
-            "map": [
-                {
-                    "source": "/home/ppain/AndroidProjects/cookfu/delivery/C:\\Users\\Arbab\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\53810ba296516d2a7cb6153a2ac1ba03\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/home/ppain/AndroidProjects/cookfu/delivery/C:\\Users\\Arbab\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\dc8d5c210369227f9e1d11fc418eaeb8\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "223"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "121",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "289"
-                    }
-                }
-            ]
         }
     ]
 }

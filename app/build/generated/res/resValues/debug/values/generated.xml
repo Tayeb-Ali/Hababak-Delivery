@@ -4,8 +4,6 @@
     <!-- Automatically generated file. DO NOT MODIFY -->
 
     <!-- Values from default config. -->
-    <string name="app_name" translatable="false">Hababk Delivery</string>
-
     <color name="colorAccent">#f95424</color>
     <color name="colorPrimary">#6ac932</color>
     <color name="colorPrimaryDark">#55A128</color>
