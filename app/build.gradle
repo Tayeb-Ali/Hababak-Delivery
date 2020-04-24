@@ -65,7 +65,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:16.1.0'
     implementation 'com.google.firebase:firebase-storage:16.0.5'
     implementation 'com.google.firebase:firebase-messaging:17.3.4'
-    implementation 'com.google.firebase:firebase-database:16.0.6'
+    implementation 'com.google.firebase:firebase-database:19.3.0'
     implementation 'com.iceteck.silicompressorr:silicompressor:2.1'
     implementation 'com.kbeanie:multipicker:1.5@aar'
     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
